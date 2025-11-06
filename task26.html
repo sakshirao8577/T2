@@ -1,0 +1,19 @@
+<style>
+    .container{margin-top: 50px;height: 800px;border: 1px solid rgb(235, 141, 192);position:relative}
+    .test{margin-left: 20px;height: 100px;width: 100px;text-align: center;border: 1px solid black}
+    #a{background-color: rgb(199, 135, 124);}
+    #b{background-color: cyan;position: relative;top:50px;left: 50px;}
+    #c{position: absolute;background-color: aquamarine;top:50px;left: 50px;z-index: -1;}
+    #d{position: fixed;background-color: lavender;top: 0px;right: 10px;}
+    #e{position: sticky;background-color: bisque;top:20px}
+</style>
+<body>
+    <div class="container">
+        <div class="test" id="a">Box 1</div>
+        <div class="test" id="b">Box 2</div>
+        <div class="test" id="c">Box 3</div>
+        <div class="test" id="d">Box 4</div>
+        <div class="test" id="e">Box 5</div>
+    </div>
+    <div class="container"></div>
+</body>
